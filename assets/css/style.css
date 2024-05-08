@@ -1,0 +1,104 @@
+/*--------------nav-------- */
+.navbar-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; /* căn giữa các phần tử theo chiều dọc */
+}
+
+.navbar-nav .nav-item {
+  text-align: center;
+}
+
+/* -----------card---------- */
+
+.w3-container img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.w3-container p {
+  text-align: center;
+}
+.w3-row h3 {
+  margin-left: 20px;
+  font-size: 3rem;
+}
+.w3-card-4 {
+  padding: 30px;
+  margin: 0 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.w3-container p {
+  text-align: center;
+  font-weight: bold;
+}
+
+.purchase-button {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  transition: opacity 0.3s;
+  opacity: 0;
+}
+.w3-row {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.w3-card-4:hover .purchase-button {
+  opacity: 1;
+}
+
+/* trên footer */
+li {
+  list-style: none;
+}
+
+li input {
+  padding: 10px 10px;
+  border-radius: 0 20px;
+}
+li i {
+  background-color: red;
+  padding: 10px;
+
+  border-radius: 50%;
+}
+.fa-solid.fa-phone {
+  color: white;
+}
+.fo p {
+  display: flex;
+  justify-content: space-evenly;
+}
+.fo li {
+  margin-left: 20%;
+}
+/* ----------footer--------- */
+footer {
+  background-color: beige;
+  margin-top: 20px;
+  padding: 30px 10px;
+}
+ul p {
+  font-size: 20px;
+  font-weight: bold;
+}
+.horizontal-line {
+  margin-top: 30px;
+  margin-left: 4%;
+  width: 92%;
+  height: 1px;
+  background-color: black;
+}
+/* pagination */
+.pag {
+  margin-left: 45%;
+}
